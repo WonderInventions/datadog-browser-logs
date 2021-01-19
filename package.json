@@ -1,0 +1,16 @@
+{
+  "name": "@datadog/browser-logs",
+  "version": "2.2.1",
+  "license": "Apache-2.0",
+  "main": "cjs/index.js",
+  "module": "esm/index.js",
+  "types": "cjs/index.d.ts",
+  "dependencies": {
+    "@datadog/browser-core": "WonderInventions/datadog-browser-core",
+    "tslib": "^1.10.0"
+  },
+  "devDependencies": {
+    "@types/sinon": "9.0.10",
+    "sinon": "9.2.2"
+  }
+}
